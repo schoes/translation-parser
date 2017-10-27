@@ -1,0 +1,33 @@
+{
+  "name": "translation-parser",
+  "version": "1.0.0",
+  "description": "parse excels to json and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoes/translation-parser.git"
+  },
+  "keywords": [
+    "json",
+    "excel",
+    "translations"
+  ],
+  "author": "Sven Schoeni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schoes/translation-parser/issues"
+  },
+  "homepage": "https://github.com/schoes/translation-parser#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^4.17.4",
+    "node-xlsx": "^0.11.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
